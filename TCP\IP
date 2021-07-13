@@ -69,3 +69,6 @@ SACK 方法：TCP头里加一个SACK，和ACK一起返回，带上数据碎板
 
 Duplicate SACK：主要使用了SACK来告诉发送方有哪些数据被重复接收了
 - 优点：让发送端确认哪些数据因为ACK丢失还是网络延迟等因素被重传了
+
+
+[开始学习](https://coolshell.cn/articles/11564.html)
