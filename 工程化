@@ -1,0 +1,22 @@
+# 工程化
+## 1.谈下webpack loader机制
+[开始学习](https://github.com/youngwind/blog/issues/101)
+## 2.uglify原理的是什么
+答：
+- 1. 将code转换成AST
+- 2. 将AST进行优化，生成一个更小的AST（名称变字母，分号变逗号）
+- 3. 将新生成的AST再转化成code
+
+[开始学习](https://www.h5w3.com/19480.html)
+## 3.是否有写过webpack插件
+[开始学习](https://juejin.cn/post/6844903789804126222)
+## 4.webpack工作流程是怎样的
+[开始学习](https://developer.aliyun.com/article/61047)
+## 5.tree shaking是什么，有什么作用，原理是什么
+答：
+- 是什么：通过工具“摇”我们的"JS"文件，将其中用不到的代码摇掉，是一个性能优化的范畴
+- 作用：去除打包后没有用到的函数和变量等代码
+- 原理：基于ES6 提供的静态代码依赖分析，得到没有依赖的代码进行删除
+[开始学习](https://juejin.cn/post/6844903544756109319)
+## 6.babel是什么，怎么做到的（重点）
+[开始学习](https://my.oschina.net/u/4088983/blog/4545928)
